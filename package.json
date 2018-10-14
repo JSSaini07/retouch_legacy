@@ -1,0 +1,28 @@
+{
+  "name": "retouch",
+  "version": "1.0.0",
+  "description": "An extension to tweak various websites based on popular requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js --env=dev",
+    "prod": "webpack --config webpack.config.js --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSSaini07/retouch.git"
+  },
+  "author": "Jasmeet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSSaini07/retouch/issues"
+  },
+  "homepage": "https://github.com/JSSaini07/retouch#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
