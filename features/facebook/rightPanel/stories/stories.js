@@ -1,8 +1,7 @@
-
 export function removeStories(mutationObserverInstance) {
     mutationObserverInstance.updateWatchlist({
-        'type': 'NODE_ADDED',
-        'DOMIdentifier': '#stories_pagelet_rhc',
+        'type': 'nodeAdded',
+        'DOMIdentifier': '#fb_stories_card_root',
         'action': performRemoval
     });
 
